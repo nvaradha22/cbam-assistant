@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0A0A0F;
+  --surface: #111118;
+  --border: #1E1E2E;
+  --primary: #0066CC;
+  --text-primary: #E8E8F0;
+  --text-secondary: #8888AA;
+  --success: #00C851;
+  --warning: #FFB300;
+  --error: #FF4444;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: var(--surface);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.875rem;
+}
+
+tr:hover td {
+  background-color: rgba(255,255,255,0.02);
+}
+
+/* Input styles */
+input, select, textarea {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  width: 100%;
+  outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--primary);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0055aa;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  color: var(--text-primary);
+  border-color: var(--text-secondary);
+}
+
+/* Card/panel */
+.panel {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: 20px;
+}
+
+/* Badges */
+.badge-success { background: rgba(0,200,81,0.15); color: #00C851; padding: 2px 8px; font-size: 0.75rem; font-weight: 600; }
+.badge-warning { background: rgba(255,179,0,0.15); color: #FFB300; padding: 2px 8px; font-size: 0.75rem; font-weight: 600; }
+.badge-error { background: rgba(255,68,68,0.15); color: #FF4444; padding: 2px 8px; font-size: 0.75rem; font-weight: 600; }
+.badge-info { background: rgba(136,136,170,0.15); color: #8888AA; padding: 2px 8px; font-size: 0.75rem; font-weight: 600; }
