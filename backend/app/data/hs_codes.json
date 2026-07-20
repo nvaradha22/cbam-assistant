@@ -66,7 +66,5 @@
   {"cn_code": "310260", "description": "Double salts and mixtures of calcium nitrate and ammonium nitrate", "sector": "fertilizer", "cbam_applicable": true, "reporting_notes": null},
   {"cn_code": "310280", "description": "Mixtures of urea and ammonium nitrate in aqueous or ammoniacal solution", "sector": "fertilizer", "cbam_applicable": true, "reporting_notes": null},
   {"cn_code": "310290", "description": "Other nitrogenous fertilisers", "sector": "fertilizer", "cbam_applicable": true, "reporting_notes": null},
-  {"cn_code": "2716", "description": "Electrical energy", "sector": "electricity", "cbam_applicable": true, "reporting_notes": "Imports of electricity — report grid emission factor"},
-  {"cn_code": "280410", "description": "Hydrogen", "sector": "hydrogen", "cbam_applicable": true, "reporting_notes": "Report production method and emission intensity"},
-  {"cn_code": "280411", "description": "Liquefied hydrogen", "sector": "hydrogen", "cbam_applicable": true, "reporting_notes": null}
+  {"cn_code": "2716", "description": "Electrical energy", "sector": "electricity", "cbam_applicable": true, "reporting_notes": "Imports of electricity — report grid emission factor"}
 ]
