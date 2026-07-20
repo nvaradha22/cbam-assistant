@@ -1,6 +1,8 @@
 # CBAM Assistant
 
-Open-source EU CBAM compliance tool for GCC exporters and consultants.
+**Open-source EU CBAM compliance tool for GCC exporters**
+
+🌐 **Live:** [cbam-assistant-tau.vercel.app](https://cbam-assistant-tau.vercel.app)
 
 ## What it does
 
